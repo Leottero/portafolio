@@ -1,0 +1,87 @@
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.head__header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.head__title {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 0 0 0 20px;
+    margin-left: auto;
+}
+
+.enlaces__container{
+    position: relative;
+    display: flex;
+    top: 30px;
+    right: 0%;    
+}
+
+.head__list{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+ul li a:hover { /* Para listas ordenadas */
+    color: #3498db;
+}
+
+.head__list__item__contato{
+    text-decoration: none;
+    color: #464646;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    display: none;
+}
+
+
+/* Estilos generales para dispositivos de pantalla grande */
+/* Puedes incluir tus estilos para pantallas grandes aquí */
+
+/* Media query para tabletas (768px de ancho o menos) */
+
+
+@media (max-width: 768px) {
+    /* Oculta la lista principal en tabletas */
+    .head__list {
+        display: none;
+    }
+
+    /* Muestra solo el elemento de contacto en tabletas */
+    .head__list__item__contato {
+        display: block;
+    }
+
+    /* Puedes ajustar otros estilos según sea necesario para tabletas */
+}
+
+/* Media query para dispositivos móviles (480px de ancho o menos) */
+@media (max-width: 480px) {
+    /* Oculta la lista principal en dispositivos móviles */
+    .head__list {
+        display: none;
+    }
+
+    /* Muestra solo el elemento de contacto en dispositivos móviles */
+    .head__list__item__contato {
+        display: block;
+    }
+
+    /* Puedes ajustar otros estilos según sea necesario para dispositivos móviles */
+}
+

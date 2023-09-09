@@ -1,0 +1,33 @@
+/* Estilos para la sección "Habilidades" */
+.habilidades {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    margin: 3rem;
+}
+
+/* Estilos para el título "Habilidades" */
+.habilidades__titulo {
+    font-weight: bold; /* Hacer que el título esté en negrita */
+}
+
+/* Estilos para el contenedor de los íconos */
+.habilidades__line {
+    display: flex; /* Alinear los íconos horizontalmente */
+    justify-content: center; /* Centrar horizontalmente los íconos */
+}
+
+/* Estilos para cada caja de habilidad */
+.habilidades__box {
+    margin: 0 60px; /* Espacio entre las cajas de habilidad */
+    transition: transform 0.3s; /* Animación de escala en 0.3 segundos */
+}
+
+/* Estilos para los íconos de habilidad */
+.habilidades__img img {
+    max-width: 100px; /* Tamaño máximo de los íconos */
+}
+
+/* Efecto de aumento de tamaño al hacer hover en las cajas de habilidad */
+.habilidades__box:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% al hacer hover */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+}

@@ -1,0 +1,34 @@
+/* Estilos para la sección "Formación académica" */
+.academic {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    margin: 6rem;
+}
+
+/* Estilos para el título "Formación académica" */
+.academic__title {
+    font-weight: bold; /* Hacer que el título esté en negrita */
+}
+
+/* Estilos para el contenedor de los cursos */
+.academic__courses {
+    display: flex; /* Alinear los cursos horizontalmente */
+    justify-content: center; /* Centrar horizontalmente los cursos */
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para cada caja de curso */
+.academic__courses__box {
+    margin: 0 80px; /* Espacio horizontal entre los cursos */
+    transition: transform 0.3s; /* Animación de escala en 0.3 segundos */
+}
+
+/* Estilos para los íconos de cursos */
+.academic__courses__item__img img {
+    max-width: 100px; /* Tamaño máximo de los íconos */
+}
+
+/* Efecto de aumento de tamaño al hacer hover en las cajas de curso */
+.academic__courses__box:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% al hacer hover */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+}

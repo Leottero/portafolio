@@ -1,0 +1,63 @@
+/* Estilos para la sección "Contacto" */
+.formcontacto {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    margin: 20px 11rem; /* Espacio vertical entre la sección de contacto y otras secciones */
+}
+
+/* Estilos para el contenedor de contacto */
+.formcontacto__contacto {
+    display: flex; /* Para que la imagen y la información estén en línea */
+    justify-content: center; /* Centrar horizontalmente las experiencias */
+    align-items: center; /* Centrar verticalmente las experiencias */
+    margin: 3rem 0;/* Espacio vertical entre las experiencias */
+}
+
+.formcontacto__img{
+    margin: 0 30px;
+    max-width: 350px;
+}
+
+/* Estilos para el texto y el formulario de contacto */
+.formcontacto__text {
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+/* Estilos para el título "Contacto" */
+.formcontacto__title {
+    font-weight: bold; /* Hacer que el título esté en negrita */
+}
+
+/* Estilos para los subtextos de contacto */
+.formcontacto__subtext {
+    margin: 10px 0; /* Espacio vertical entre los subtextos */
+}
+
+/* Estilos para el formulario de contacto */
+.formcontacto__form {
+    margin: 20px 11rem 0 0; /* Espacio superior del formulario */
+}
+
+/* Estilos para los campos de entrada del formulario */
+.formcontacto__input {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno de los campos de entrada */
+    margin-bottom: 10px; /* Espacio vertical entre los campos de entrada */
+}
+
+/* Estilos para el campo de mensaje del formulario */
+.formcontacto__textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno del campo de mensaje */
+    margin-bottom: 10px; /* Espacio vertical entre el campo de mensaje y otros campos */
+}
+
+/* Estilos para el botón de enviar del formulario */
+.formcontacto__boton {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #3498db; /* Color de fondo azul claro */
+    border-color: #3498db;
+    color: #fff; /* Color del texto en el botón */
+    border-radius: 5px; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+}
+

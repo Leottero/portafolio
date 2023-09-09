@@ -1,0 +1,63 @@
+/* Estilos para la sección "Experiencia Profesional" */
+.experiencia {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+/* Estilos para el título "Experiencia Profesional" */
+.experiencia__section__title {
+    font-weight: bold; /* Hacer que el título esté en negrita */
+}
+
+/* Estilos para los contenedores de cada experiencia */
+.experiencia__box {
+    display: flex; /* Para que la imagen y la información estén en línea */
+    justify-content: center; /* Centrar horizontalmente las experiencias */
+    align-items: center; /* Centrar verticalmente las experiencias */
+    margin: 3rem 0;/* Espacio vertical entre las experiencias */
+}
+
+.experiencia__info__juego{
+    display: flex; /* Para que la imagen y la información estén en línea */
+    justify-content: center; /* Centrar horizontalmente las experiencias */
+    align-items: center; /* Centrar verticalmente las experiencias */
+    margin: 20px 0;
+    flex-direction: row-reverse;
+}
+
+
+/* Estilos para las imágenes de experiencia */
+.experiencia__img {
+     /* Tamaño máximo de las imágenes */
+    margin-right: 2rem; /* Espacio entre la imagen y la información */
+}
+
+/* Estilos para la información de experiencia */
+.experiencia__info {
+    text-align: center; /* Alinear el texto a la izquierda */
+}
+
+/* Estilos para el título de experiencia */
+.experiencia__title {
+    font-weight: bold; /* Hacer que el título esté en negrita */
+}
+
+.experiencia__text{
+    font-weight: normal;
+}
+/* Estilos para los botones de repositório y demo */
+.experiencia__botao--repo{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-color: #3498db;
+    cursor: pointer;
+}
+.experiencia__botao--demo {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #3498db; /* Color de fondo azul claro */
+    border-color: #3498db;
+    color: #fff; /* Color del texto en el botón */
+    border-radius: 5px; /* Sin borde */
+    cursor: pointer;
+    margin-right: 10px; /* Espacio entre los botones */
+}

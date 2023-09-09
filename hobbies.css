@@ -1,0 +1,23 @@
+/* Estilos para la sección "Hobbies" */
+.hobbies {
+    text-align: center; /* Centrar el contenido horizontalmente */
+    margin: 6rem;
+}
+
+/* Estilos para el contenedor de los íconos de hobbies */
+.hobbies__box {
+    display: inline-block; /* Para que los íconos se coloquen horizontalmente */
+    margin: 0 30px; /* Espacio horizontal entre los íconos */
+    transition: transform 0.3s; /* Animación de escala en 0.3 segundos */
+}
+
+/* Estilos para los íconos de hobbies */
+.hobbies__img img {
+    max-width: 100px; /* Tamaño máximo de los íconos */
+}
+
+/* Efecto de aumento de tamaño al hacer hover en los íconos */
+.hobbies__box:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% al hacer hover */
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+}

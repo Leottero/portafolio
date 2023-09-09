@@ -1,0 +1,24 @@
+/* Estilos para la sección "SOBRE MI" */
+.sobre__mi {
+    background-color: #f5f5f5; 
+    padding: 2rem; 
+    padding-right: 33rem;
+    text-align: center; 
+    margin: 3rem;
+}
+
+.sobre__mi__titulo {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.sobre__mi__parrafo {
+    text-align: left; 
+    font-style: italic; 
+    line-height: normal;
+    font-size: 1rem;
+    padding-left: 6rem;
+}
+
+
